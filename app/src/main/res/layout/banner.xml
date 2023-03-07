@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    android:padding="@dimen/space0.5x">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space16x"
+        android:padding="@dimen/space1.25x"
+        app:cardCornerRadius="@dimen/space2x">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/banner_background"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/space1x">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/space1.25x"
+                    android:text="@string/banner_title_text"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/banner_title_text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/additional_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/space1.25x"
+                    android:text="@string/banner_text"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/banner_text_size" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="20"
+                android:src="@drawable/banner_pic" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

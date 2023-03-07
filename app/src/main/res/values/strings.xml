@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">JustMoby</string>
+
+    <!--Categories-->
+    <string name="category_android">Android</string>
+    <string name="category_windows">Windows</string>
+    <string name="category_ios">IOS</string>
+    <string name="category_Linux">Linux</string>
+    <string name="category_macos">Mac OS</string>
+    <string name="see_more_text">see more</string>
+
+    <!--Banner text-->
+    <string name="banner_title_text">Try three days free trial</string>
+    <string name="banner_text">You will get all outfit templates, special texture and details</string>
+</resources>
